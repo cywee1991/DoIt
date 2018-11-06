@@ -9,7 +9,7 @@
 import UIKit
 
 class CreateTaskViewController: UIViewController {
-
+    
     @IBOutlet weak var createTask: UITextField!
     @IBOutlet weak var importantSwitch: UISwitch!
     
@@ -18,7 +18,7 @@ class CreateTaskViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         
         
     }
@@ -31,13 +31,13 @@ class CreateTaskViewController: UIViewController {
         previousVC.tasklist.append(createNewTask)
         previousVC.tableView.reloadData()
         navigationController!.popViewController(animated: true)
-
+        
     }
     
-        
     
     
     
-   
-
+    
+    
+    
 }

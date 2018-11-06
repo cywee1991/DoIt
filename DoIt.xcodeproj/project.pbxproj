@@ -15,6 +15,7 @@
 		9204185C218EE8DF006C8467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9204185A218EE8DF006C8467 /* LaunchScreen.storyboard */; };
 		92041864218EF16C006C8467 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92041863218EF16C006C8467 /* task.swift */; };
 		92041866218F2A15006C8467 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92041865218F2A15006C8467 /* CreateTaskViewController.swift */; };
+		92C516E62191D80500CA5C4C /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C516E52191D80500CA5C4C /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9204185D218EE8DF006C8467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92041863218EF16C006C8467 /* task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 		92041865218F2A15006C8467 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		92C516E52191D80500CA5C4C /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +64,10 @@
 			children = (
 				9204184E218EE8DE006C8467 /* AppDelegate.swift */,
 				92041850218EE8DE006C8467 /* TaskViewController.swift */,
+				92041865218F2A15006C8467 /* CreateTaskViewController.swift */,
+				92C516E52191D80500CA5C4C /* CompleteTaskViewController.swift */,
 				92041863218EF16C006C8467 /* task.swift */,
 				92041852218EE8DE006C8467 /* Main.storyboard */,
-				92041865218F2A15006C8467 /* CreateTaskViewController.swift */,
 				92041858218EE8DF006C8467 /* Assets.xcassets */,
 				9204185A218EE8DF006C8467 /* LaunchScreen.storyboard */,
 				9204185D218EE8DF006C8467 /* Info.plist */,
@@ -146,6 +149,7 @@
 			files = (
 				92041864218EF16C006C8467 /* task.swift in Sources */,
 				92041857218EE8DE006C8467 /* DoIt.xcdatamodeld in Sources */,
+				92C516E62191D80500CA5C4C /* CompleteTaskViewController.swift in Sources */,
 				92041851218EE8DE006C8467 /* TaskViewController.swift in Sources */,
 				9204184F218EE8DE006C8467 /* AppDelegate.swift in Sources */,
 				92041866218F2A15006C8467 /* CreateTaskViewController.swift in Sources */,
